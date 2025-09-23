@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 320px;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .profile-card .cover-photo {
+            width: 100%;
+            height: 100px;
+            border-radius: 10px 10px 0 0;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .profile-card .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: -60px;
+            position: relative;
+            z-index: 2;
+        }
+        .profile-card h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .profile-card p {
+            color: #777;
+            margin: 0 0 15px 0;
+        }
+        .profile-card .bio {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .profile-card .social-links a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+        .profile-card .social-links a:hover {
+            color: #0056b3;
+        }
+        .profile-card .social-links img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+        .profile-card .contact-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .profile-card .contact-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img class="cover-photo" src="background.jpg" alt="Cover Photo">
+        <img class="profile-image" src="ME.jpg" alt="Profile Picture">
+        <h2>ANMOL GOEL</h2>
+        <p>BTECH CSE</p>
+        <div class="bio">
+            Passionate web developer specializing in front-end technologies. I love creating beautiful and user-friendly web experiences.
+        </div>
+        <div class="social-links">
+            <a href="https://x.com/AnmolGoyal2005?t=cVIkPNZQbJ9AQAo63ETvKQ&s=09" target="_blank">
+                <img src="twitter.html" alt="Twitter">
+            </a>
+            <a href="https://www.facebook.com/share/1Bh7WLq23U/" target="_blank">
+                <img src="facebook.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/anmol_goel__0001?igsh=MW03ZTl5bzRvNnkzZg==" target="_blank">
+                <img src="instagram.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/anmol-goel-703b06340?utm" target="_blank">
+                <img src="twitter.[ng.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/anmolgoyal2005-lang/ABES-CSE13-ANMOL-2400320100212" target="_blank">
+                <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="GitHub">
+            </a>
+        </div>
+        <a href="9528237492" class="contact-button">Contact Me</a>
+    </div>
+
+</body>
+</html>
